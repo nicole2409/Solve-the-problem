@@ -1,0 +1,872 @@
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html
+{
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body
+{
+  background-color: black;
+  background-image: url("tlo.jpg");
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+font-family: 'Source Sans Pro', sans-serif;
+color:#A1A1A1;
+text-shadow: 0px 0px 15px #000000;
+}
+.input-group-text{
+  text-shadow: 0px 0px 0px #000000;
+color:#363636;}
+
+.mainGraphic
+{
+
+background-color: black;
+text-align: center;
+padding-bottom: 2%;
+margin-bottom: 10%;
+
+}
+
+
+.arrowanimation{
+
+  -webkit-animation: arrowanimation 1.6s cubic-bezier(0.550, 0.950, 0.90,1) infinite both;
+	        animation: arrowanimation 1.6s cubic-bezier(0.550, 0.950, 0.90, 1) infinite both;
+}
+
+
+
+
+.querybox
+{
+padding-top: 6%;
+padding-bottom: 6%;
+padding-left: 10%;
+padding-right: 10%;
+text-align: center;
+display: block;
+
+}
+
+
+.querybox h2
+{
+color:rgba(215, 167, 55, 1);
+font-family: 'Luckiest Guy', cursive;
+text-align: center;
+padding-top: 15%;
+}
+
+
+.querybox h4
+{
+  padding-top: 2%;
+  color:#BBBBBB;
+}
+
+
+.querybox h5
+{
+
+   padding-bottom: 5%;
+}
+.querybox h6
+{
+
+   color:red;
+}
+
+.querybox button
+{
+  padding-top:1%;
+  padding-bottom:1%;
+  padding-left:10%;
+  padding-right:10%;
+  margin-top:5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: grey;
+  border-radius: 8px;
+
+}
+
+.form-control{
+  text-align:center;
+padding-top: 3%
+
+}
+
+.textarea
+{
+color:white;
+text-align: center;
+padding-bottom: 15%;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+.textarea h3
+{
+  font-family: 'Luckiest Guy', cursive;
+   margin-bottom: 2%;
+
+}
+
+
+.textarea h5
+ {
+  color:#BBBBBB;
+  text-shadow: 0px 0px 15px #000000;
+
+
+}
+
+
+.textarea h6
+ {
+color:#A1A1A1;
+text-shadow: 0px 0px 15px #000000;
+padding-bottom: 5%;
+
+}
+
+
+.textarea h4
+{
+color:rgba(215, 167, 55, 1);
+font-family: 'Luckiest Guy', cursive;
+}
+
+
+.smalltextarea
+{
+  border: 2px solid white;
+  padding: 4%;
+}
+
+.my-button
+{
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1%;
+  border-radius: 8px;
+  margin:1%;
+  margin-bottom: 2%;
+}
+
+.my-button:hover
+{
+background-color: rgba(0, 0, 0, 1);
+
+}
+
+
+
+.rules
+{
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+
+.rules h3
+{
+color:white;
+font-family: 'Luckiest Guy', cursive;
+padding-bottom: 2%;
+}
+
+
+.rules h5
+{
+
+  padding-bottom: 4%;
+}
+
+.choice
+{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: none;
+
+
+ }
+
+.btn-group
+{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.choice h2
+{
+color:rgba(215, 167, 55, 1);
+font-family: 'Luckiest Guy', cursive;
+text-align: center;
+
+}
+
+
+.choice h4
+{
+color: white;
+padding-bottom: 2%;
+text-align: center;
+}
+
+#yourchoice
+{
+  margin-left: auto;
+   margin-right: auto;
+  background-color: white;
+  width: 50%;
+  height: 100px;
+  -webkit-box-shadow: inset 0px 0px 43px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 43px -1px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 43px -1px rgba(0,0,0,0.75);
+padding-left: 2%;
+padding: 1%;
+
+border-radius: 5px;
+  }
+
+.choice p {
+  color:#D93439;
+  text-align: center;
+  padding-top: 0.5%;
+font-weight: bold;
+}
+
+
+#yourchoice h6 {color:grey;}
+
+.buttonbox
+{
+  text-align: center;
+}
+
+.my-button2
+  {
+    background-color:rgba(114, 116, 115, 0.82);
+    padding-left: 7%;
+    padding-right: 7%;
+    border-radius: 8px;
+  }
+
+.game  h2
+{
+color:rgba(215, 167, 55, 1);
+font-family: 'Luckiest Guy', cursive;
+text-align: center;
+margin-top: 2%;
+}
+
+.game
+{
+ display:none;
+ padding-top: 5%;
+ padding-bottom: 10%;
+ margin-left: auto;
+ margin-right: auto;
+ width: 55%;
+}
+
+
+#active-window
+{
+
+display: block;
+text-align:center;
+background-color:white;
+
+height: 20em;
+margin-bottom:4%;
+margin-top:3%;
+padding-top: 1%;
+border: solid 3px #535353;
+-webkit-box-shadow: inset 0px 0px 43px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 43px -1px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 43px -1px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+
+
+
+
+
+
+#active-window h3
+{
+  color:black;
+  text-shadow: 0px 0px 0px #000000;
+padding-top: 3%;}
+#active-window h5
+{
+text-shadow: 0px 0px 0px #000000;
+word-wrap:break-word;
+max-width:100%;
+margin-left: 3%;
+margin-right: 3%;
+}
+
+#animationBox
+{
+
+  margin-bottom:8%;
+  margin-top: 15%;
+  padding-left: 6%;
+  padding-right: 6%;
+
+}
+
+.solution
+{
+  display:none;
+  padding-top: 5%;
+    padding-bottom: 10%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%;
+width: 55%;
+
+}
+
+.solution h2{
+
+  color:rgba(215, 167, 55, 1);
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+
+}
+
+
+#score
+{
+background-color: white;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 3%;
+padding: 10%;
+padding-top: 5%;
+padding-bottom: 10%;
+border: solid 3px #535353;
+-webkit-box-shadow: inset 0px 0px 43px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 43px -1px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 43px -1px rgba(0,0,0,0.75);
+}
+
+
+#score h5
+{
+
+  text-align: center;
+  text-shadow: 0px 0px 0px #000000;
+
+}
+
+
+
+#scorearea h4
+{
+color:black;
+text-shadow: 0px 0px 0px #000000;
+}
+
+#photo1{
+  display: inline-block;
+  width:30%;
+   }
+#scorearea{
+  display: inline-block;
+    width:20%;
+}
+
+
+#photo2{
+display: inline-block;
+width:30%;
+}
+
+.rekaprawa{
+  display:inline-block;
+  float:right}
+
+
+
+.rekaprawa_active
+{
+  display:inline-block;
+  float:right
+  -webkit-animation: rekaprawa 0.8s cubic-bezier(0.350, 0.460, 0.90, 0.940) 3 both;
+	        animation: rekaprawa 0.8s cubic-bezier(0.350, 0.460, 0.90, 0.940) 3 both;
+
+}
+
+.papierprawa{
+
+  display:none;
+  float:right
+
+
+}
+
+.kamienprawa{
+
+  display:none;
+  float:right
+
+
+}
+
+.nozyczkiprawa{
+
+  display:none;
+  float:right
+
+
+}
+
+
+
+
+.rekalewa{
+
+  display:inline-block;
+    float:left;
+
+}
+
+
+.rekalewa_active
+{
+  display:inline-block;
+    float:left;
+
+    -webkit-animation: rekalewa 0.8s cubic-bezier(0.350, 0.460, 0.90, 0.940) 3 both;
+  	        animation: rekalewa 0.8s cubic-bezier(0.350, 0.460, 0.90, 0.940) 3 both;
+
+}
+
+
+
+
+
+.papierlewa{
+
+  display:none;
+  float:right
+
+
+}
+
+.kamienlewa{
+
+  display:none;
+  float:right
+
+
+}
+
+.nozyczkilewa{
+
+  display:none;
+  float:right
+
+
+}
+
+
+
+
+
+@-webkit-keyframes rekaprawa  {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 100% 100%;
+  }
+100% {
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+    -webkit-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+  }
+}
+@keyframes rekaprawa{
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 100% 100%;
+  }
+100% {
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+    -webkit-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+  }
+}
+
+
+
+ @-webkit-keyframes rekalewa {
+   0% {
+     -webkit-transform: rotate(0deg);
+             transform: rotate(0deg);
+     -webkit-transform-origin: top left ;
+             transform-origin: top left ;
+   }
+ 100% {
+     -webkit-transform: rotate(-30deg);
+             transform: rotate(-30deg);
+     -webkit-transform-origin:bottom left;
+             transform-origin:bottomleft ;
+   }
+ }
+ @keyframes rekalewa{
+   0% {
+     -webkit-transform: rotate(0deg);
+             transform: rotate(0deg);
+     -webkit-transform-origin:bottom left  ;
+             transform-origin: bottom left ;
+   }
+ 100% {
+     -webkit-transform: rotate(-30deg);
+             transform: rotate(-30deg);
+     -webkit-transform-origin:bottom left ;
+             transform-origin:bottom left ;
+   }
+ }
+
+
+
+
+ @-webkit-keyframes arrowanimation  {
+    0% {
+      -webkit-transform:    scale(0.8);
+              transform:  scale(0.8);
+              transform:translateY(0px);
+
+
+    }
+  100% {
+    -webkit-transform:  scale(1);
+            transform:  scale(1);
+    -webkit-transform:translateY(20px );
+            transform:translateY(20px );
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
